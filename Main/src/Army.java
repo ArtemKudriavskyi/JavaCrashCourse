@@ -34,12 +34,4 @@ public class Army  {
                 army +
                 "}";
     }
-
-    public void print() {
-
-        for (int i = 0; i < army.size(); i++) {
-            System.out.println(army.get(i).toString());
-        }
-    }
-
 }
