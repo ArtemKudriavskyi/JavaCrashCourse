@@ -6,12 +6,7 @@ import java.util.List;
 public class Army  {
     List<Warrior> army = new ArrayList();
 
-
-    public Warrior getWarrior(int i){
-        return army.get(i);
-    }
-
-
+    
     public void addUnits(Warrior war, int count) {
         String className = war.getClass().getSimpleName();
 
